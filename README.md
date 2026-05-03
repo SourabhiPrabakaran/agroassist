@@ -29,3 +29,8 @@ streamlit run app/app.py
 Python · Scikit-learn · Random Forest · XGBoost · Streamlit · Pandas · NumPy · Plotly · Joblib
 
 ## 📁 Project Structure
+agroassist/
+├── notebooks/          # Phase 1: Dataset simulation, Phase 2: Model training
+├── data/               # Generated sensor dataset + EDA plots
+├── models/             # Trained ML models (.pkl files)
+└── app/                # Streamlit dashboard
